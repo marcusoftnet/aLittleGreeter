@@ -1,0 +1,16 @@
+{
+  "name": "aLittleGreeter",
+  "version": "1.0.0",
+  "description": "Simple little demo for a blog post",
+  "main": "index.js",
+  "files" : ["*.js"],
+  "scripts": {
+    "claudia:create" : "claudia create --name aLittleGreeter --region us-west-2 --api-module index",
+    "claudia:update" : "claudia update"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-api-builder": "^1.0.2"
+  }
+}
